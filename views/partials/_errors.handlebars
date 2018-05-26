@@ -1,0 +1,9 @@
+{{#if error}}
+    <div class="alert alert-danger">{{error}}</div>
+{{/if}}
+<!--遍历错误的数组-->
+{{#each errors}}
+    <!--弹窗-->
+    <div class="alert alert-danger">{{text}}</div>
+{{else}}
+{{/each}}
